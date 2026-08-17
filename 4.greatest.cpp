@@ -1,26 +1,23 @@
 #include <iostream>
 using namespace std;
 
-int greatest(int a, int b)
+int maxNumber(int x, int y)
 {
-    if (a > b)
-        return a;
-    else
-        return b;
+    if (x > y)
+        return x;
+    return y;
 }
 
 int main()
 {
-    int a, b, result;
+    int x, y;
 
-    cout << "Author Name: Mohan Yadav" << endl;
+    cout << "Author Name: Sudip Pandey" << endl;
 
     cout << "Enter two numbers: ";
-    cin >> a >> b;
+    cin >> x >> y;
 
-    result = greatest(a, b);
-
-    cout << "Greatest number = " << result << endl;
+    cout << "Greatest number = " << maxNumber(x, y);
 
     return 0;
 }

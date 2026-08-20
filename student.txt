@@ -1,0 +1,6 @@
+Student Details
+----------------
+Name: Mohan Yadav
+Roll No: 101
+Course: BSc CSIT
+College: Butwal Multiple Campus

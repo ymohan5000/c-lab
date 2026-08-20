@@ -7,6 +7,8 @@ int main()
     cin>>num;
     if(num>0)
     cout<<"positive";
-    else 
+    else if(num<0) 
     cout<<"negative";
+    else 
+    cout<<"zero";
 }
